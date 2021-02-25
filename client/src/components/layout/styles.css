@@ -1,0 +1,75 @@
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.logo-div {
+  min-height: 94px;
+}
+
+.user-column {
+  background-color: #f0f2f5;
+}
+
+header.ant-layout-header.header {
+  background: #fff;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  position: absolute;
+  top: 15px !important;
+  -webkit-box-shadow: 2px 0px 10px -2px rgba(232, 232, 232, 1);
+  -moz-box-shadow: 2px 0px 10px -2px rgba(232, 232, 232, 1);
+  box-shadow: 2px 0px 10px -2px rgba(232, 232, 232, 1);
+  right: -36px;
+  z-index: 1;
+  width: 36px;
+  height: 42px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  background: #001529;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.darkness {
+  background: rgba(0, 0, 0, 1);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.ant-drawer-body {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 1px !important;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item {
+  height: 40px;
+  line-height: 40px;
+  list-style-position: inside;
+  padding-left: 20px !important;
+  list-style-type: disc;
+}

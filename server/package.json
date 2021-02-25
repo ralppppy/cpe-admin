@@ -1,0 +1,30 @@
+{
+  "name": "wmsucpe-server",
+  "version": "1.0.0",
+  "description": "Wmsu CPE server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ralp Yosores",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.16",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.5",
+    "sharp": "^0.26.2",
+    "slug": "^4.0.2"
+  }
+}

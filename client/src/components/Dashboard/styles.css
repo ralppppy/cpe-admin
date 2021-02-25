@@ -1,0 +1,7 @@
+.message-card {
+  max-height: 425px;
+  overflow-y: auto;
+}
+.budget-card {
+  min-height: 425px;
+}
